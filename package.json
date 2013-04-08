@@ -1,7 +1,7 @@
 {
   "name": "leapmotion-proxy",
   "preferGlobal": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Vincent Saluzzo <vincentsaluzzo@me.com>",
   "description": "a simple LeapMotion WebSocket server proxy which recopy the Leap device's message to another web socket.",
   "contributors": [ ],
