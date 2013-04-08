@@ -1,0 +1,38 @@
+{
+  "name": "leapmotion-proxy",
+  "preferGlobal": false,
+  "version": "0.1.0",
+  "author": "Vincent Saluzzo <vincentsaluzzo@me.com>",
+  "description": "a simple LeapMotion WebSocket server proxy which recopy the Leap device's message to another web socket.",
+  "contributors": [ ],
+  "bin": {
+    "leapmotion-proxy": "./leapmotion-proxy.js"
+  },
+  "scripts": {
+    "start": "node ./leapmotion-proxy.js",
+    "test": "vows --spec --isolate",
+    "postdeploy": "Thanks to install LeapMotion Proxy, write npm start now !"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itelios/leapmotion-proxy.git"
+  },
+  "keywords": [
+    "leapmotion",
+    "proxy",
+    "websocket",
+    "leap"
+  ],
+  "dependencies" : {
+    "websocket"   :  "1.0.8"
+  },
+  "analyze": false,
+  "bundledDependencies": [
+    "union",
+    "ecstatic"
+  ],  
+  "license": "Apache",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
